@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+.container{
+    max-width: 1024px; 
+}
+
+
+/* Header */
+
+.container-header{
+    width: 100vw;
+
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    align-items: center;
+
+    background-color: #ffffff;
+    position: fixed;
+    z-index: 1;
+}
+
+.container-header span{
+    color: #8aaecc;
+}
+
+.nav a{
+    padding: 18px;
+    font-size: 16px;
+}
+
+.container-header a{
+    color: #4E484F;
+    text-decoration: none;
+}
+
+.container-header a{
+    color: #4E484F;
+    text-decoration: none;
+}
+
+.nav ul li{
+    list-style-type: none;
+    display: inline;
+}
+
+.nav li:hover{
+    border-bottom: 3px solid #8aaecc;
+}
+
+/* Banner home */
+
+.banner-home{
+    background-image: url(../assents/img-fundo.jpg);
+    background-position: center;
+    height: 607px;
+    background-repeat: no-repeat;
+    background-size:  cover;
+    position: relative;
+}
+
+.up-banner{
+    padding: 40px 80px;
+
+
+    background-color: #26a68aa4;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+
+    border-radius: 5px;
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+.up-banner h1{
+    font-size: 52px;
+}
+
+.up-banner span{
+    font-size: 27px;
+}
+
+
+/* Bem-vindo */
+
+
+.bem-vindo{
+    margin: 0 auto;
+    margin-top: 80px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    color: #4E484F;
+}
+
+.bem-vindo-conteudo{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.bem-vindo-conteudo h1{
+    font-weight: 400;
+    font-size: 40px;
+}
+
+/* Quartos */
+
+.bem-vindo-quartos{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 40px;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.bem-vindo-quartos img{
+    width: 100%;
+}
+
+.quartos-disponiveis{
+    flex: 1 1 250px;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-content: stretch;
+}
+
+.quartos-disponiveis a{
+    text-decoration: none;
+    color: #4E484F;
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.borda{
+    border-bottom: 2px solid #41776F;
+    padding-bottom: 10px;
+}
+
+
+/* Rota */
+
+.rota{
+    text-align: center;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.rota-conteudo{
+    color: #4E484F;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.rota-conteudo h1{
+    font-weight: 400;
+}
+
+.rota-mapa{
+    margin-top: 40px;
+}
+
+.rota-mapa iframe{
+    width: 100%;
+}
+
+
+/* Sobre */
+
+.sobre{
+    margin: 40px auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.sobre-conteudo{
+    color: #4E484F;
+}
+
+.sobre-conteudo h1{
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.sobre-cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    flex: 1 1 300px;
+    justify-content: center;
+}
+
+.card-sobre{
+    justify-content: space-between;
+    width: 450px;
+    display: flex;
+    text-align: left;
+    align-items: center;
+    gap: 20px;
+}
+
+.card-sobre img{
+    width: 100px;
+    height: 110px;
+}
+
+.card-sobre > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    gap: 15px;
+}
+
+
+/* Footer */
+footer{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer{
+    background-color: #49997C;
+    width: 100%;
+    padding: 50px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    
+    color: #fff;
+    border-bottom:1px solid #41776F;
+}
+
+.footer-card{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    width: 240px;
+
+}
+
+.footer-contato{
+    font-size: 22px;
+    width: 190px;
+}
+
+.copyright{
+    background-color: #49997C;
+    width: 100%;
+    color: #fff;
+
+    text-align: center;
+
+    padding: 10px;
+}
